@@ -202,7 +202,6 @@ def load_models():
         'LSTM': 'models/best_lstm.h5',
         'GRU': 'models/best_gru.h5',
         '1D CNN': 'models/best_1d_cnn.h5',
-        '2D CNN': 'models/best_2d_cnn.h5',
         'CRNN': 'models/best_crnn.h5'
     }
     
@@ -469,3 +468,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
