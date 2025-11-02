@@ -269,6 +269,8 @@ def main():
         
         if not models:
             st.error("No models found! Please train models first using the training script.")
+            st.write("📂 Current working directory:", os.getcwd())
+            st.write("📁 Contents of models/:", os.listdir("models") if os.path.exists("models") else "No models folder found")
             return
         
         st.sidebar.success(f"✅ {len(models)} models loaded")
@@ -465,4 +467,5 @@ def main():
         """)
 
 if __name__ == "__main__":
+
     main()
