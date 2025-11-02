@@ -1,0 +1,21 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+
+# Audio processing
+librosa
+soundfile
+
+# Deep Learning
+tensorflow
+keras
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Web application
+streamlit
+
